@@ -2,7 +2,6 @@
 # Aim
 Write a simple Python program for the modulation and demodulation of PCM, and DM.
 # Tools required
-
 Google colab
 # Program
 # PCM:
@@ -74,7 +73,7 @@ plt.tight_layout()
 # Show plots
 plt.show()
 ```
-# DC:
+# DM:
 ```
 #DM
 #Delta Modulation
@@ -142,6 +141,4 @@ plt.show()
 <img width="943" height="749" alt="image" src="https://github.com/user-attachments/assets/60d9b926-2cbe-45de-831b-5f98967a7ac0" />
 
 # Results
-
 Thus,the PCM AND DC is verified succesfully
-
