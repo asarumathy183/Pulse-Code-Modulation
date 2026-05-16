@@ -8,25 +8,19 @@ Google colab
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-
 # Time axis
 t = np.linspace(0, 1, 1000)
-
 # Message signal (Analog signal)
 fm = 5  # message frequency
 message_signal = np.sin(2 * np.pi * fm * t)
-
 # Clock signal
 fc = 20  # clock frequency
 clock_signal = 0.5 * (1 + np.sign(np.sin(2 * np.pi * fc * t)))
-
 # PCM Quantization
 levels = 8  # number of quantization levels
 quantized_signal = np.round(message_signal * (levels / 2)) / (levels / 2)
-
 # Plotting
 plt.figure(figsize=(12, 10))
-
 # Plot message signal
 plt.subplot(4, 1, 1)
 plt.plot(t, message_signal, label="Message Signal (Analog)", color='blue')
@@ -35,7 +29,6 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 plt.legend()
-
 # Plot clock signal
 plt.subplot(4, 1, 2)
 plt.plot(t, clock_signal, label="Clock Signal", color='green')
@@ -44,7 +37,6 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 plt.legend()
-
 # Plot PCM modulated signal
 plt.subplot(4, 1, 3)
 plt.step(t, quantized_signal, where='mid',
@@ -54,7 +46,6 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 plt.legend()
-
 # Plot PCM demodulated signal
 plt.subplot(4, 1, 4)
 plt.plot(t, quantized_signal,
@@ -66,10 +57,8 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 plt.legend()
-
 # Adjust layout
 plt.tight_layout()
-
 # Show plots
 plt.show()
 ```
@@ -134,6 +123,7 @@ plt.tight_layout()
 plt.show()
 ```
 # Output Waveform
+
 # PCM:
 <img width="940" height="737" alt="image" src="https://github.com/user-attachments/assets/ea2a8223-4dec-4cfc-af0c-a67d74132ee2" />
 
