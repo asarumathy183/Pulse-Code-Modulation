@@ -125,10 +125,10 @@ plt.show()
 # Output Waveform
 
 # PCM:
-<img width="940" height="737" alt="image" src="https://github.com/user-attachments/assets/ea2a8223-4dec-4cfc-af0c-a67d74132ee2" />
+<img width="740" height="537" alt="image" src="https://github.com/user-attachments/assets/ea2a8223-4dec-4cfc-af0c-a67d74132ee2" />
 
 # DC:
-<img width="943" height="749" alt="image" src="https://github.com/user-attachments/assets/60d9b926-2cbe-45de-831b-5f98967a7ac0" />
+<img width="743" height="549" alt="image" src="https://github.com/user-attachments/assets/60d9b926-2cbe-45de-831b-5f98967a7ac0" />
 
 # Results
 Thus,the PCM AND DC is verified succesfully
